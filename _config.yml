@@ -17,3 +17,7 @@ github_username:  bluephoenix
 
 # Build settings
 markdown: kramdown
+
+# gem
+gems:
+- jekyll-email-protect

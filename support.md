@@ -8,4 +8,4 @@ We welcome you questions, feedback, or concerns?
 
 Please send an email!
 
-{% email support@bitsthatmatter.net %}
+<a href="mailto:{{ 'support@bitsthatmatter.net' | encode_email }}" title="Send an email!">Send an email!</a>
