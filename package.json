@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/BluePhoenix/felixbarros.com/issues"
   },
-  "homepage": "https://github.com/BluePhoenix/felixbarros.com#readme"
+  "homepage": "https://github.com/BluePhoenix/felixbarros.com#readme",
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  }
 }
