@@ -13,8 +13,8 @@ gem install jekyll
 bundle install
 ```
 
-And then to serve the page:
-
+Start up the server with:
 ```
-jekyll serve
+jekyll serve --safe
 ```
+Use the safe keyword to run the same way it will run in GitHub pages

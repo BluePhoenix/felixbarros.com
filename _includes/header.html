@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/"><img src="/android-chrome-36x36.png"></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,6 +14,8 @@
       </a>
 
       <div class="trigger">
+        <a class="page-link" href="/#about">About</a>
+        <a class="page-link" href="/#apps">Apps</a>
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
@@ -22,6 +24,10 @@
       </div>
     </nav>
 
+  </div>
+  <div class="wrapper hero">
+    <h1>Felix Barros</h1>
+    <h3>Web and Mobile Software Developer</h1>
   </div>
 
 </header>
