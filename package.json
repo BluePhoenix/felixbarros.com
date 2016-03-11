@@ -1,6 +1,6 @@
 {
   "name": "felixbarros.com",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Personal website",
   "main": "js/app.js",
   "scripts": {
