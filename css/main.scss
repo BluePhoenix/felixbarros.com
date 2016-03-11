@@ -29,9 +29,27 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 div.hero {
-	min-height: 50vh;
+    min-height: 100px;
+    // min-height: 20vh;
 }
 
+div {
+    .app-name, .app-screen-shot, .app-store-badge {
+        text-align: center;
+        font-weight: $base-font-weight + 200;
+    }
+    .app-store-badge {
+        margin: $spacing-unit * 0.575;
+    }
+}
+
+section {
+    margin-top: $spacing-unit;
+}
+
+.section-header {
+    text-align: center;
+}
 
 // Use media queries like this:
 // @include media-query($on-palm) {

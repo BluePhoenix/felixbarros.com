@@ -9,7 +9,7 @@
 title: Felix Barros
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Felix Barros - Software Engineer, Curious
+  Felix Barros - Software Engineer, Learner, Curious
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://felixbarros.com" # the base hostname & protocol for your site
 twitter_username: felixb
