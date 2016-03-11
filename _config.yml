@@ -23,3 +23,7 @@ redirects: yes
 # gem
 gems:
 - jekyll-email-protect
+- jekyll-redirect-from
+
+whitelist:
+- jekyll-redirect-from
