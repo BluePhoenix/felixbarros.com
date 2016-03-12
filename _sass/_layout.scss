@@ -268,9 +268,29 @@ div {
 }
 
 section {
-    margin-top: $spacing-unit;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
 }
 
 .section-header {
+    text-align: center;
+}
+
+/**
+ * Screenshots
+ */
+.screenshot-image {
+    border-bottom: 1px solid $grey-color-light;
+}
+
+/**
+ * Product pages
+ */
+
+.inner-content {
+    padding: $spacing-unit;
+}
+
+.center-text {
     text-align: center;
 }
