@@ -1,0 +1,20 @@
+/*
+ * Styles for the Tip Calculator App page
+ */
+
+$tip-calculator-primary-color:   #B6C998;
+$tip-calculator-secondary-color: #433A3F;
+$tip-calculator-highlight-color: #CDE8A8;
+$tip-calculator-accent-color:    #DE6B48;
+$tip-calculator-opposite-color:  #E5C539;
+
+$section-min-height: 40vh;
+
+.tip-calculator-top-section,
+.tip-calculator-bottom-section {
+    min-height: $section-min-height;
+}
+.tip-calculator-middle-section {
+    background-color: $tip-calculator-primary-color;
+    min-height: $section-min-height;
+}
