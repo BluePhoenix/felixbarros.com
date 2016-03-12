@@ -8,13 +8,13 @@ $tip-calculator-highlight-color: #CDE8A8;
 $tip-calculator-accent-color:    #DE6B48;
 $tip-calculator-opposite-color:  #E5C539;
 
-$section-min-height: 40vh;
+$section-min-height: 20vh;
 
 .tip-calculator-top-section,
 .tip-calculator-bottom-section {
-    min-height: $section-min-height;
+/*     background-color: $tip-calculator-primary-color; */
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
 }
 .tip-calculator-middle-section {
-    background-color: $tip-calculator-primary-color;
-    min-height: $section-min-height;
 }
