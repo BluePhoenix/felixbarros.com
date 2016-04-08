@@ -42,6 +42,13 @@ $on-laptop:        800px;
     }
 }
 
+@include media-query($on-palm) {
+    ul.social-media-list li {
+        line-height: 3em;
+        padding-left: 1em;
+    }
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
